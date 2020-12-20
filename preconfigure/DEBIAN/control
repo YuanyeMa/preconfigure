@@ -1,0 +1,9 @@
+Package: preconfigure
+Version: 1.0
+Section: main
+Priority: optional
+Maintainer: yuanye.ma yuanye.ma20@gmail.com
+Depends: vim, git, tig, net-tools, make, libncurses5-dev, tree, proxychains
+Architecture: amd64
+Installed-Size: 4096
+Description: Configure system after system installed. 

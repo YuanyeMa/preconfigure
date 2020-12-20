@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+
+for i in `ls /home`;
+do
+        cat /usr/local/share/preconfigure/bashrc >> /home/$i/.bashrc
+	echo "/home/$i/.basherc is updated"
+        cp -r  /usr/local/share/preconfigure/vim /home/$i/.vim
+	echo "/home/$i/.vim is updated"
+	cat /usr/local/share/preconfigure/vimrc >> /home/$i/.vimrc
+	echo "/etc/vim/vimrc is updated"
+done
+
