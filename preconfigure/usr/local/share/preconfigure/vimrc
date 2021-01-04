@@ -1,4 +1,7 @@
-set hlsearch   "设置高亮显示搜索结果
+"设置右下角显示行号和列号
+set ruler
+"设置高亮显示搜索结果
+set hlsearch   
 "输入时搜索
 set incsearch
 "设置递进搜索
